@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: service - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\louis\AppData\Local\Temp\RSP176D.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/service.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\大三上\网络攻防-欧晓聪\第十一次课\component2\FINAL\Service\service.cpp"
+]
+Creating command line "cl.exe @C:\Users\louis\AppData\Local\Temp\RSP176D.tmp" 
+Creating temporary file "C:\Users\louis\AppData\Local\Temp\RSP176E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/service.pdb" /machine:I386 /out:"Release/service.exe" 
+".\Release\service.obj"
+]
+Creating command line "link.exe @C:\Users\louis\AppData\Local\Temp\RSP176E.tmp"
+<h3>Output Window</h3>
+Compiling...
+service.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+service.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: service - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\louis\AppData\Local\Temp\RSP1953.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/service.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\大三上\网络攻防-欧晓聪\第十一次课\component2\FINAL\Service\service.cpp"
+]
+Creating command line "cl.exe @C:\Users\louis\AppData\Local\Temp\RSP1953.tmp" 
+Creating temporary file "C:\Users\louis\AppData\Local\Temp\RSP1954.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/service.pdb" /debug /machine:I386 /out:"Debug/service.exe" /pdbtype:sept 
+".\Debug\service.obj"
+]
+Creating command line "link.exe @C:\Users\louis\AppData\Local\Temp\RSP1954.tmp"
+<h3>Output Window</h3>
+Compiling...
+service.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+service.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
